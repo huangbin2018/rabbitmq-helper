@@ -5,7 +5,19 @@ RabbitMQ 消息队列实现重试、异常处理。
 
 ![](https://raw.githubusercontent.com/huangbin2018/rabbitmq-helper/master/doc/image.png)
 
+# 安装
 
+```php
+ composer require huangbin2018/rabbitmq-helper
+```
+
+# 依赖
+
+PHP >= 7.0
+
+php-amqplib/php-amqplib >= 2.9
+
+php_amqp.dll / php_amqp.so
 
 # 使用
 
