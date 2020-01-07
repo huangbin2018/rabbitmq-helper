@@ -1,5 +1,5 @@
 {
-    "name": "huangbin2018/RabbitMqHelper",
+    "name": "huangbin2018/rabbitmq-helper",
     "description": "RabbitMQ 消息队列实现自动重试、异常队列",
     "license": "MIT",
     "authors": [
