@@ -1,0 +1,22 @@
+{
+    "name": "huangbin2018/RabbitMqHelper",
+    "description": "RabbitMQ 消息队列实现自动重试、异常队列",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "huangbin",
+            "email": "huangbin2018@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.0.0",
+	"php-amqplib/php-amqplib": "^2.9",
+	"symfony/console": "3.0.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "RabbitMqHelper\\RabbitMQRetry\\": "src"
+        }
+    }
+}
