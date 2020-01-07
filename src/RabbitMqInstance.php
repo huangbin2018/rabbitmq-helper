@@ -2,10 +2,10 @@
 
 namespace RabbitMqHelper\RabbitMQRetry;
 
-use Publisher;
-use SubscribeAbstract;
-use RabbitMQ;
-use Message;
+use RabbitMqHelper\RabbitMQRetry\Publisher;
+use RabbitMqHelper\RabbitMQRetry\SubscribeAbstract;
+use RabbitMqHelper\RabbitMQRetry\RabbitMQ;
+use RabbitMqHelper\RabbitMQRetry\Message;
 
 //是否记录消费日志 open-记录，close-不记录
 defined('MQ_SUBSCRIBER_EXEC_LOG') || define('MQ_SUBSCRIBER_EXEC_LOG', 'close');
