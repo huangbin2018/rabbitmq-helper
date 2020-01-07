@@ -3,7 +3,7 @@ RabbitMQ 消息队列实现重试、异常处理。
 
 流程图：
 
-![](https://raw.githubusercontent.com/huangbin2018/RabbitMqHelper/master/doc/image.png)
+![](https://raw.githubusercontent.com/huangbin2018/rabbitmq-helper/master/doc/image.png)
 
 
 
